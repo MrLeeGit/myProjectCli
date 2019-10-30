@@ -13,9 +13,16 @@ module.exports = {
     module: {
         rules:[
             {
-                test: /\.js$/,
-                 exclude: /node_modules/, 
-                 loader: "babel-loader"
+                test: /\.js|jsx$/, use:
+                {
+                    loader: 'babel-loader', options: {
+                        presets: ['@babel/preset-env'],
+                        plugins: [
+                            ["@babel/plugin-proposal-decorators", { "legacy": true }],  // 支持es7的装饰器的写法 要放在前面
+                            '@babel/plugin-proposal-class-properties',       // 支持es7的类的写法 
+                        ]
+                    }
+                }
             }
         ]
     },
