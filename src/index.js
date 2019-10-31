@@ -5,7 +5,8 @@
 // import Single from './single'
 // import Adptee from './adptee'
 // import Decorator from './decorator'
-import Proxy from './proxy'
+// import Proxy from './proxy'
+import Observer from './observer'
 
 
 
