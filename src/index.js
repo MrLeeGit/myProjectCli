@@ -6,7 +6,9 @@
 // import Adptee from './adptee'
 // import Decorator from './decorator'
 // import Proxy from './proxy'
-import Observer from './observer'
+// import Observer from './observer'
+
+import iterator from './Iterator'
 
 
 
