@@ -1,14 +1,13 @@
 /**
  * 设计模式
  */
-// import Factory from './factory'
-// import Single from './single'
-// import Adptee from './adptee'
-// import Decorator from './decorator'
-// import Proxy from './proxy'
-// import Observer from './observer'
-
-import State from './State'
+// import Factory from './designPattern/factory'
+// import Single from './designPattern/single'
+// import Adptee from './designPattern/adptee'
+// import Decorator from './designPattern/decorator'
+// import Proxy from './designPattern/proxy'
+// import Observer from './designPattern/observer'
+// import State from './designPattern/State'
 
 
 
