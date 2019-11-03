@@ -8,7 +8,7 @@
 // import Proxy from './proxy'
 // import Observer from './observer'
 
-import iterator from './Iterator'
+import State from './State'
 
 
 
