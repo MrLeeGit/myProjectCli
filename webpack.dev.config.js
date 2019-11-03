@@ -30,6 +30,11 @@ module.exports = {
         contentBase: path.join(__dirname, './release'),
         open: true,
         port: 9000,
+        proxy: {
+            '/api/*': {
+                target: 'http://localhost:8889'
+            }
+        }
     }
   };
   
